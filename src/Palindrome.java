@@ -2,7 +2,6 @@
 public class Palindrome {
     public static void isPalindrome(String string, int begin, int end) {
         string = string.toLowerCase();
-
         if (begin >= end) {
             System.out.println("This string is palindrome");
         } else if (string.charAt(begin) == string.charAt(end)) {

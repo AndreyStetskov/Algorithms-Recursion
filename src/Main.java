@@ -15,8 +15,6 @@ public class Main {
 
 
         String string = "madam";
-        int begin = 0;
-        int end = string.length() - 1;
-        Palindrome.isPalindrome(string, begin, end);
+        Palindrome.isPalindrome(string, 0, string.length() - 1);
     }
 }
